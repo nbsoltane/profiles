@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from "prop-types";
 
 export const Coords = (props) => {
     function handleName (user) {
@@ -13,3 +14,9 @@ export const Coords = (props) => {
     </div>
   )
 }
+
+Coords.propTypes = {
+    fullName: PropTypes.string,
+    profession: PropTypes.string,
+    bio: PropTypes.string
+  };

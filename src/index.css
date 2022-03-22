@@ -33,11 +33,7 @@ h1::after {
   margin: 0 auto;
   background-color: #005aff;
 }
-.item {
-  padding: 2em 2em;
-  max-width: 33.33%;
-  text-align: center;
-}
+
 @media screen and (max-width: 991px) {
   .item {
     width: 100%;
